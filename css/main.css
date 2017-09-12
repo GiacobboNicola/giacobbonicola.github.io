@@ -49,7 +49,7 @@ nav.vertical > ul > li > a {
 
 a {
     text-decoration: none;
-    color: white;
+    color: grey;
 }
 a:hover {
     text-decoration: underline;
