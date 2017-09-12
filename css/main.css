@@ -65,12 +65,13 @@ ul.posts li {
 ul.menu {
     list-style-type: none;
     margin: 0;
+    text-align: center;
     padding: 0;
     width: 200px;
     background-color: #f1f1f1;
 }
 
-ul.mennu li a {
+ul.menu li a {
     display: block;
     color: #000;
     padding: 8px 16px;
