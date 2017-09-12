@@ -19,7 +19,7 @@ nav ul li, footer ul li {
 
 nav.vertical {
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  box-shadow: 0 0 10px rgba(1,1,1,.15);
   overflow: hidden;
   text-align: center;
 }
