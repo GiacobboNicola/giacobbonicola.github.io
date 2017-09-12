@@ -2,6 +2,7 @@ body {
     margin: 70px auto;
     width: 80%;
     float: right;
+    background-color: #grey;
 }
 
 /* The side navigation menu */
@@ -12,7 +13,7 @@ nav {
     z-index: 1; /* Stay on top */
     float: left;
     top: 10px;
-    left: 10px;
+    left: 0px;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
@@ -36,7 +37,7 @@ nav a:hover, .offcanvas a:focus{
 
 a {
     text-decoration: none;
-    color: grey;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
