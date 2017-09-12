@@ -6,6 +6,24 @@ body {
     background-color: grey;
 }
 
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+    font-weight: 100;
+}
+
 /* The side navigation menu */
 nav {
     height: 100%; /* 100% Full-height */
