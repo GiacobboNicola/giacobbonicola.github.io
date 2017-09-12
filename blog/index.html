@@ -4,10 +4,11 @@ title: Blog
 ---
 <div class="blurb">
 	<h1 class="main-title">Nicola Giacobbo <span class=".thin"> {{ page.title }} </span></h1>
+<div><!-- /.blurb -->
 	<ul class="posts">
 
 	  {% for post in site.posts %}
 	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
-<div><!-- /.blurb -->
+
