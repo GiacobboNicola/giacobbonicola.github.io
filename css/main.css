@@ -1,9 +1,9 @@
 body {
     margin: 70px auto;
     width: 80%;
-    left: 10px;
+    left: 20px;
     float: right;
-    background-color: grey;
+    background-color: #f1f1f1;
 }
 
 /* The side navigation menu */
