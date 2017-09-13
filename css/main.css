@@ -6,6 +6,18 @@ body {
     background-color: grey;
 }
 
+.main-title {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-transform: uppercase;
+}
+
+.main-title .thin {
+    font-weight: 100;
+}
+
 /* The side navigation menu */
 nav {
     height: 100%; /* 100% Full-height */
