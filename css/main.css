@@ -51,7 +51,7 @@ nav a:hover, .offcanvas a:focus{
 /* The images */
 .image {
     font-size: 0;
-    text-align: center;
+    text-align: top;
     width: 200px;  /* Container's dimensions */
     height: 150px;
   }
