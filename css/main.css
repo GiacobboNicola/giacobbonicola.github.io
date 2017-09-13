@@ -52,8 +52,8 @@ nav a:hover, .offcanvas a:focus{
 .image {
     font-size: 0;
     text-align: top;
-    width: 200px;  /* Container's dimensions */
-    height: 150px;
+    width: 250px;  /* Container's dimensions */
+    height: 200px;
   }
   img {
     display: inline-block;
@@ -65,7 +65,10 @@ nav a:hover, .offcanvas a:focus{
     display: inline-block;
     vertical-align: top;
     height: 150px;
-  }
+    position:absolute;
+    left:0;
+    top:0;
+}
   
   a {
     text-decoration: none;
