@@ -3,13 +3,13 @@ body {
     width: 75%;
     left: 30px;
     float: right;
-    background-color: white;
+    background-color: grey;
 }
 
 .main-title {
     margin: 0;
     padding: 0;
-    color: grey;
+    color: black;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-transform: uppercase;
 }
@@ -84,7 +84,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: black;
+    color: white;
 }
 footer {
     border-top: 1px solid #d5d5d5;
