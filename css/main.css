@@ -3,7 +3,8 @@ body {
     width: 75%;
     left: 30px;
     float: right;
-    background-color: grey;
+/*    background-color: grey;*/
+    background-color: white;
 }
 
 .main-title {
@@ -45,7 +46,8 @@ nav a {
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+/*    color: #f1f1f1;*/
+    color: grey;
 }
 
 /* The images */
@@ -72,7 +74,8 @@ nav a:hover, .offcanvas a:focus{
   
   a {
     text-decoration: none;
-    color: white;
+/*    color: white;*/
+    color: grey;
 }
 a:hover {
     text-decoration: underline;
@@ -84,7 +87,8 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: white;
+/*    color: white;*/
+    color: grey;
 }
 footer {
     border-top: 1px solid #d5d5d5;
