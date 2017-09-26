@@ -3,8 +3,7 @@ body {
     width: 75%;
     left: 30px;
     float: right;
-/*    background-color: grey;*/
-    background-color: white;
+    background-color: grey;
 }
 
 .main-title {
@@ -46,8 +45,7 @@ nav a {
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
-/*    color: #f1f1f1;*/
-    color: grey;
+    color: #f1f1f1;
 }
 
 /* The images */
@@ -74,8 +72,7 @@ nav a:hover, .offcanvas a:focus{
   
   a {
     text-decoration: none;
-/*    color: white;*/
-    color: grey;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
