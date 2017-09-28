@@ -1,11 +1,10 @@
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.row-padding img {margin-bottom: 12px}
-.bgimg {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-image: src="../images/Nicola_ProfileBW.JPG";
-	min-height: 100%;
+body {
+    margin: 70px auto;
+    width: 75%;
+    left: 30px;
+    float: right;
+/*    background-color: grey;*/
+    background-color: white;
 }
 
 .main-title {
@@ -47,7 +46,8 @@ nav a {
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+/*    color: #f1f1f1;*/
+    color: grey;
 }
 
 /* The images */
@@ -74,10 +74,15 @@ nav a:hover, .offcanvas a:focus{
   
   a {
     text-decoration: none;
-    color: white;
+/*    color: white;*/
+    color: grey;
 }
 a:hover {
     text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
