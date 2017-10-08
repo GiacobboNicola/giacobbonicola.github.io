@@ -47,7 +47,7 @@ nav a {
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
 /*    color: #f1f1f1;*/
-    color: grey;
+    color: lightgrey;
 }
 
 /* The images */
