@@ -103,7 +103,6 @@ footer a {
     list-style: none;
     padding:0;
     margin: 0;
-    text-align: center;
   }
   
   /* make ALL links (main and submenu) have padding and background color */
@@ -113,6 +112,7 @@ footer a {
     text-decoration: none;
     padding: 0;
     font-size:24px;
+    text-align: center;
     color:white;
   }
   
@@ -140,11 +140,13 @@ footer a {
   .submenu a {
     background-color:#2D9831;
     color:white;
-  }
+    text-align: center;
+}
   
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
     background-color:#21B726;
+    font-size:24px;
     color:white;
   }
   
