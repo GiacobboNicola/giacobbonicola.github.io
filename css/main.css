@@ -47,7 +47,8 @@ nav {
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
-    color: #2A752D;
+    color:white;
+    font-size: 16px;
     text-decoration: underline;
 }
 
@@ -99,7 +100,7 @@ footer a {
 /* reset our lists to remove bullet points and padding */
 .mainmenu, .submenu {
     list-style: none;
-    padding-top: 70px;
+    padding:0;
     margin: 0;
   }
   
@@ -108,7 +109,7 @@ footer a {
     display: block;
     background-color:#2A752D;
     text-decoration: none;
-    padding: 10px;
+    padding: 0;
     color:white;
   }
   
