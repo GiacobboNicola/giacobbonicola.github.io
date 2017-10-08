@@ -49,7 +49,7 @@ nav {
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
     color:white;
-    font-size: 28px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
@@ -57,8 +57,8 @@ nav a:hover, .offcanvas a:focus{
 .image {
     font-size: 0;
     text-align: top;
-    width: 250px;  /* Container's dimensions */
-    height: 200px;
+    width: 500px;  /* Container's dimensions */
+    height: 3500px;
   }
   img {
     display: inline-block;
@@ -145,8 +145,6 @@ footer a {
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
     background-color:#21B726;
-    font-size:24px;
-    color:white;
   }
   
   /* this is the initial state of all submenus.
