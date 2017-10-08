@@ -85,7 +85,7 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #2A752D;
+    color: grey;
 }
 footer {
     border-top: 1px solid #2A752D;
@@ -99,22 +99,22 @@ footer a {
 /* reset our lists to remove bullet points and padding */
 .mainmenu, .submenu {
     list-style: none;
-    padding: 0;
+    padding-top: 70px;
     margin: 0;
   }
   
   /* make ALL links (main and submenu) have padding and background color */
   .mainmenu a {
     display: block;
-    background-color: #CCC;
+    background-color:#2A752D;
     text-decoration: none;
     padding: 10px;
-    color: #000;
+    color:white;
   }
   
   /* add hover behaviour */
   .mainmenu a:hover {
-      background-color: #C5C5C5;
+      background-color: #2D9831;
   }
   
   
@@ -134,12 +134,14 @@ footer a {
   */
   
   .submenu a {
-    background-color: #999;
+    background-color:#2D9831;
+    color:white;
   }
   
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
-    background-color: #666;
+    background-color:#21B726;
+    color:white;
   }
   
   /* this is the initial state of all submenus.
