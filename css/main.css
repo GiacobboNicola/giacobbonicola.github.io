@@ -103,6 +103,7 @@ footer a {
     list-style: none;
     padding:0;
     margin: 0;
+    text-align: center;
   }
   
   /* make ALL links (main and submenu) have padding and background color */
