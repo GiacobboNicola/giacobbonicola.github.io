@@ -92,53 +92,62 @@ footer {
     border-top: 1px solid #2A752D;
     font-size: .8em;
 }
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-.dropbtn {
-    background-color: #2A752D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
+footer a {
     text-decoration: none;
-    font-size: 12px;
+    color: #2A752D;
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* make ALL links (main and submenu) have padding and background color */
+  .mainmenu a {
     display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
+    background-color: #CCC;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+  }
+  
+  /* add hover behaviour */
+  .mainmenu a:hover {
+      background-color: #C5C5C5;
+  }
+  
+  
+  /* when hovering over a .mainmenu item,
+    display the submenu inside it.
+    we're changing the submenu's max-height from 0 to 200px;
+  */
+  
+  .mainmenu li:hover .submenu {
     display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #2A752D;
-}
+    max-height: 200px;
+  }
+  
+  /*
+    we now overwrite the background-color for .submenu links only.
+    CSS reads down the page, so code at the bottom will overwrite the code at the top.
+  */
+  
+  .submenu a {
+    background-color: #999;
+  }
+  
+  /* hover behaviour for links inside .submenu */
+  .submenu a:hover {
+    background-color: #666;
+  }
+  
+  /* this is the initial state of all submenus.
+    we set it to max-height: 0, and hide the overflowed content.
+  */
+  .submenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 0.5s ease-out;
+  }
