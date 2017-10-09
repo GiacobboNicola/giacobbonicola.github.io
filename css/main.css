@@ -4,11 +4,17 @@ body {
     left: 30px;
     float: right;
     min-height: 100vh;
-    background-image: url(https://s3.amazonaws.com/123rf-chrome/images/52037441_xl.jpg);
     background-size: cover;
-
-/*    background-color: grey;*/
     background-color: white;
+}
+
+.header{
+    width:75%;
+    top: 0;
+    height: 10%;
+    left: 30px;
+    background-image:"../images/main.jpg";
+    position:fixed;
 }
 
 .main-title {
@@ -38,17 +44,6 @@ nav {
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
-/* The navigation menu links */
-/*nav a {
-    text-align: center;
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
-*/
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
@@ -62,15 +57,15 @@ nav a:hover, .offcanvas a:focus{
     font-size: 0;
     text-align: top;
     width: 500px;  /* Container's dimensions */
-    height: 3500px;
-  }
-  img {
+    height: 100px;
+}
+img {
     display: inline-block;
     vertical-align: top;
     max-height: 100%;
     max-width: 100%;
-  }
-  .trick {
+}
+.trick {
     display: inline-block;
     vertical-align: top;
     height: 150px;
@@ -160,7 +155,7 @@ footer a {
     -webkit-transition: all 0.5s ease-out;
   }
 
-  #canvas-overlay {
+  /*#canvas-overlay {
     position: relative;
     z-index: 98;
     opacity: 0.85;
@@ -172,4 +167,4 @@ footer a {
     left: 0;
     z-index: 99;
     opacity: 0.05;
-  }
+  }*/
