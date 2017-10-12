@@ -147,13 +147,13 @@ footer a {
   
   .submenu a {
     background-color:white;
-    color:grey;
+    color:darkgrey;
 }
   
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
-    background-color:lightgrey;
-    color: whtite;
+    background-color:grey;
+    color: white;
   }
     
   /* this is the initial state of all submenus.
