@@ -34,11 +34,11 @@ body {
     font-size: 0;
     text-align: top;
     width: 500px;  /* Container's dimensions */
-    height: 200px;
-   position: absolute;
+    height: 300px;
+   position: relative;
    top: 10%;
    left: 55%;
-   margin-top: -100px; /* Half the height */
+   margin-top: -150px; /* Half the height */
    margin-left: -250px; /* Half the width */
 
 }
