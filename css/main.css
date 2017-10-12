@@ -1,7 +1,7 @@
 body {
-    margin: 70px auto;
-    width: 75%;
-    left: 30px;
+    margin: 10px auto;
+    width: 80%;
+    left: 10px;
     float: right;
     min-height: 100vh;
     background-size: cover;
@@ -9,16 +9,16 @@ body {
 }
 
 .header{
-    width:75%;
-    top: 0;
+    width:80%;
+    top: 10px;
     height: 10%;
-    left: 30px;
+    left: 10px;
     background-image:"../images/main.jpg";
     position:fixed;
 }
 
 .main-title {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     color: black;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -33,12 +33,12 @@ body {
 /* The side navigation menu */
 nav {
     height: 10%; /* 100% Full-height */
-    width: 80%; /* 0 width - change this with JavaScript */
+    width: 10%; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 10; /* Stay on top */
     float: left;
     top: 500px;
-    left: 2000px;
+    left: 20px;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
