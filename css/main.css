@@ -37,8 +37,8 @@ nav {
     float: left;
     top: 10px;
     left: 20px;
+    overflow: hidden;
     background-color: white; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
 /*    padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
@@ -73,13 +73,13 @@ img {
 }
 
 .ima-top {
-    display: inline-block;
-    vertical-align: top;
-    height: 100px;
-    width: 400px;
-    position: relative;
-    left:10px;
-    top:10px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 220px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -50px; /* Half the width */
 }
   
 a {
@@ -109,6 +109,7 @@ footer a {
 .mainmenu, .submenu {
     list-style: none;
     padding:0;
+    overflow: hidden;
     margin: 0;
   }
   
@@ -151,9 +152,10 @@ footer a {
   
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
-    background-color:white;
+    background-color:lightgrey;
+    color: whtite;
   }
-  
+    
   /* this is the initial state of all submenus.
     we set it to max-height: 0, and hide the overflowed content.
   */
@@ -162,3 +164,4 @@ footer a {
     max-height: 0;
     -webkit-transition: all 0.5s ease-out;
   }
+
