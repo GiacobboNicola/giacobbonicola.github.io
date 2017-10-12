@@ -14,7 +14,7 @@ body {
     height: 10%;
     left: 10px;
     background-image:"../images/main.jpg";
-    position:fixed;
+    position: relative;
 }
 
 .main-title {
