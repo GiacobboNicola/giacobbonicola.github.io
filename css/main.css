@@ -30,36 +30,19 @@ body {
 }
 
 /* The images */
-.image {
+.imagetop {
     font-size: 0;
     text-align: top;
     width: 500px;  /* Container's dimensions */
-    height: 100px;
-}
-img {
-    display: inline-block;
-    vertical-align: top;
-    max-height: 100%;
-    max-width: 100%;
-}
-.trick {
-    display: inline-block;
-    vertical-align: top;
-    height: 150px;
-    position: relative;
-    left:0;
-    top:0;
+    height: 200px;
+   position: absolute;
+   top: 10%;
+   left: 55%;
+   margin-top: -100px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+
 }
 
-.ima-top {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   width: 220px;
-   height: 500px;
-   margin-top: -250px; /* Half the height */
-   margin-left: -50px; /* Half the width */
-}
   
 a {
     text-decoration: none;
