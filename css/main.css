@@ -33,7 +33,7 @@ body {
 nav {
     height: 10%; /* 100% Full-height */
     width: 80%; /* 0 width - change this with JavaScript */
-    position: relative; /* Stay in place */
+    position: relative;
     float: left;
     top: 10px;
     left: 20px;
