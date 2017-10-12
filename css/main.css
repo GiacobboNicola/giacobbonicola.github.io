@@ -29,27 +29,6 @@ body {
     color:#2D9831;
 }
 
-/* The side navigation menu */
-nav {
-    height: 10%; /* 100% Full-height */
-    width: 80%; /* 0 width - change this with JavaScript */
-    position: relative;
-    float: left;
-    top: 10px;
-    left: 20px;
-    overflow: hidden;
-    background-color: white; /* Black*/
-/*    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
-
-/* When you mouse over the navigation links, change their color */
-nav a:hover, .offcanvas a:focus{
-    color:white;
-    font-size: 30px;
-    text-decoration: underline;
-}
-
 /* The images */
 .image {
     font-size: 0;
