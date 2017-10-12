@@ -34,7 +34,6 @@ nav {
     height: 10%; /* 100% Full-height */
     width: 80%; /* 0 width - change this with JavaScript */
     position: relative; /* Stay in place */
-    z-index: 10; /* Stay on top */
     float: left;
     top: 10px;
     left: 20px;
@@ -46,7 +45,7 @@ nav {
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
-    color:black;
+    color:white;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -152,7 +151,7 @@ footer a {
   
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
-    background-color:#21B726;
+    background-color:white;
   }
   
   /* this is the initial state of all submenus.
