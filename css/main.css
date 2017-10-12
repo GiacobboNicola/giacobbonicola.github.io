@@ -13,7 +13,6 @@ body {
     top: 10px;
     height: 10%;
     left: 10px;
-    background-image:"../images/main.jpg";
     position: relative;
 }
 
@@ -39,15 +38,15 @@ nav {
     float: left;
     top: 10px;
     left: 20px;
-    background-color: #111; /* Black*/
+    background-color: white; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+/*    padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* When you mouse over the navigation links, change their color */
 nav a:hover, .offcanvas a:focus{
-    color:white;
+    color:black;
     font-size: 30px;
     text-decoration: underline;
 }
@@ -117,17 +116,17 @@ footer a {
   /* make ALL links (main and submenu) have padding and background color */
   .mainmenu a {
     display: block;
-    background-color:#2A752D;
+    background-color:white;
     text-decoration: none;
     padding: 0;
     font-size:24px;
     text-align: center;
-    color:white;
+    color:black;
   }
   
   /* add hover behaviour */
   .mainmenu a:hover {
-      background-color: #2D9831;
+      background-color: darkgrey;
   }
   
   
@@ -147,8 +146,8 @@ footer a {
   */
   
   .submenu a {
-    background-color:#2D9831;
-    color:white;
+    background-color:white;
+    color:grey;
 }
   
   /* hover behaviour for links inside .submenu */
