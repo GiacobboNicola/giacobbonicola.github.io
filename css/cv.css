@@ -1,8 +1,7 @@
 body {
-    margin: 10px auto;
+    margin: 0 auto;
     width: 90%;
-    left: 10px;
-    float: right;
+    left: 0;
     min-height: 100vh;
     background-size: cover;
     background-color: white;
@@ -10,14 +9,11 @@ body {
 
 .header{
     width:80%;
-    top: 10px;
     height: 10%;
-    left: 10px;
     position: relative;
 }
 
 .main-title {
-    margin: 10px;
     padding: 0.5;
     color: black;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -26,23 +22,38 @@ body {
 
 .main-title .thin {
     font-weight: 100;
-    color:#2D9831;
+    color:rgb(36, 141, 217);
+}
+
+.container {
+    align: center;
 }
 
 /* The images */
 .imagetop {
     font-size: 0;
-    text-align: top;
-    width: 500px;  /* Container's dimensions */
+    border-radius: 30%;
+    width: 600px;  /* Container's dimensions */
     height: 300px;
    position: relative;
    top: 10%;
-   left: 55%;
+   left: 50%;
    margin-top: -150px; /* Half the height */
-   margin-left: -250px; /* Half the width */
+   margin-left: -300px; /* Half the width */
 
 }
 
+.trick {
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+    position: relative;
+    left:0;
+    top:0;
+}
+
+.ima-top {
+}
   
 a {
     text-decoration: none;
@@ -64,7 +75,7 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: #2A752D;
+    color: rgb(36, 141, 217);
 }
 
 /* reset our lists to remove bullet points and padding */
@@ -88,7 +99,7 @@ footer a {
   
   /* add hover behaviour */
   .mainmenu a:hover {
-      background-color: darkgrey;
+      background-color: rgb(36, 141, 217);
       color: white;
   }
   
@@ -115,7 +126,7 @@ footer a {
   
   /* hover behaviour for links inside .submenu */
   .submenu a:hover {
-    background-color:lightgrey;
+    background-color:rgb(106, 170, 217);
     color: white;
   }
     
