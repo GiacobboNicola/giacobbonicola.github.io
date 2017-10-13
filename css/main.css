@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+    width: 90%;
+    left: 0;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: white;
+}
+
+.header{
+    width:80%;
+    height: 10%;
+    position: relative;
+}
+
+.longtext {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.main-title {
+    padding: 0.5;
+    color: black;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-transform: uppercase;
+}
+
+.main-title .thin {
+    font-weight: 100;
+}
+
+.container {
+    align: center;
+}
+
+/* The images */
+.imagetop {
+    font-size: 0;
+    border-radius: 30%;
+    width: 600px;  /* Container's dimensions */
+    height: 300px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    margin-top: -150px; /* Half the height */
+    margin-left: -300px; /* Half the width */
+}
+  
+a {
+    text-decoration: none;
+    color: grey;
+}
+ 
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: grey;
+}
+footer {
+    border-top: 1px solid black;
+    font-size: .8em;
+}
+footer a {
+    text-decoration: none;
+}
