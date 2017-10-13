@@ -82,7 +82,7 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: #2A752D;
+    color: #2D9831;
 }
 
 /* reset our lists to remove bullet points and padding */
@@ -106,7 +106,7 @@ footer a {
   
   /* add hover behaviour */
   .mainmenu a:hover {
-      background-color: darkgrey;
+      background-color: #2D9831
       color: white;
   }
   
