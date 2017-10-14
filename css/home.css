@@ -59,4 +59,9 @@
     -webkit-transition: all 0.5s ease-out;
   }
 
+  a {
+    text-decoration: none;
+    color: #2D9831;
+   }
+
 
