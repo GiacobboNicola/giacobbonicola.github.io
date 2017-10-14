@@ -7,7 +7,7 @@
   }
   
   /* make ALL links (main and submenu) have padding and background color */
-  .mainmenu a {
+  .mainmenu {
     display: block;
     background-color:white;
     text-decoration: none;
@@ -16,7 +16,11 @@
     text-align: center;
     color:black;
   }
-  
+ 
+  .mainmenu a {
+    padding: 0;
+  }
+
   /* add hover behaviour */
   .mainmenu a:hover {
       background-color: rgb(224, 25, 14);
