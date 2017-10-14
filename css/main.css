@@ -13,13 +13,6 @@ body {
     position: relative;
 }
 
-.longtext {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 4%;
-    margin-bottom: 4%;
-}
-
 .main-title {
     padding: 0.5;
     color: black;
@@ -33,6 +26,14 @@ body {
 
 .container {
     align: center;
+}
+
+.longtext {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align:justify;
 }
 
 /* The images */
