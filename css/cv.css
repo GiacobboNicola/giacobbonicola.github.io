@@ -74,6 +74,11 @@ h2 {
         font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
+h3 {
+  font-size: 2.0em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
 .small {
     font-family:'Geneva';
 }
@@ -83,3 +88,6 @@ h2 {
     color: rgb(36, 141, 217);
 }
 
+.b {
+  color: rgb(36, 141, 217);
+}
