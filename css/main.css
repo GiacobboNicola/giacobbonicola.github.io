@@ -56,11 +56,9 @@ p {
 }
 footer {
     border-top: 1px solid black;
-    font-size: .8em;
+    font-size: 1.0em;
 }
 footer a {
     text-decoration: none;
-}
-li {
-    font-size: 10;
+    font-size: 1.0em;
 }
