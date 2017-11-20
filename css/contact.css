@@ -23,7 +23,7 @@
 
   /* add hover behaviour */
   .mainmenu a:hover {
-      background-color: rgb(240, 182, 75);
+      background-color: rgb(100, 59, 172);
       color: white;
   }
   
@@ -41,7 +41,7 @@
   h1 {
     font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: rgb(240, 182, 75);
+    color: rgb(100, 59, 172);
   }
 
   h2 {
@@ -69,6 +69,6 @@
 }
 
 .y{
-  color: rgb(240, 182, 75); 
+  color: rgb(100, 59, 172); 
 }
 
