@@ -19,7 +19,8 @@
   .mainmenu {
     font-size:24px;
     text-align: center;
-    color: black;
+    color: yellow;
+    background-color: white;
   }
   
   .mainmenu a {
