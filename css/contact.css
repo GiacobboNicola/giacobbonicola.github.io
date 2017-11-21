@@ -9,7 +9,7 @@
   /* make ALL links (main and submenu) have padding and background color */
   .mainmenu {
     display: block;
-    background-color:white;
+    background-color: black;
     text-decoration: none;
     padding: 0;
     font-size:24px;
@@ -27,41 +27,11 @@
       color: white;
   }
   
-  
-  /* when hovering over a .mainmenu item,
-    display the submenu inside it.
-    we're changing the submenu's max-height from 0 to 200px;
-  */
-  
-  .mainmenu li:hover .submenu {
+  .mainmenu li:hover {
     display: block;
     max-height: 200px;
   }
     
-  /*
-    we now overwrite the background-color for .submenu links only.
-    CSS reads down the page, so code at the bottom will overwrite the code at the top.
-  */
-  
-  .submenu a {
-    background-color:white;
-    color:#2A752D;
-}
-  
-  /* hover behaviour for links inside .submenu */
-  .submenu a:hover {
-    background-color:lightgrey;
-    color: white;
-  }
-    
-  /* this is the initial state of all submenus.
-    we set it to max-height: 0, and hide the overflowed content.
-  */
-  .submenu {
-    overflow: hidden;
-    max-height: 0;
-    -webkit-transition: all 0.5s ease-out;
-  }
 
   h1 {
     font-size: 3.5em;
