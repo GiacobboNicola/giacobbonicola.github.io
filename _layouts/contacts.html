@@ -6,74 +6,49 @@
     overflow: hidden;
     margin: 0;
   }
-  
-  /* make ALL links (main and submenu) have padding and background color */
-  /*.mainmenu {
-    display: block;
-    background-color: white;
-    text-decoration: none;
-    padding: 0;
-    font-size:24px;
-    text-align: center;
-    color: rgb(128, 19, 201);
-  }*/
   .mainmenu {
     font-size:24px;
     text-align: center;
-    color: yellow;
-    background-color: yellow;
+    background-color: white;
   }
-  
   .mainmenu a {
     padding: 15px;
   }
-
-  /* add hover behaviour */
   .mainmenu a:hover {
       background-color: rgb(128, 19, 201);
       color: white;
   }
-  
   .mainmenu li:hover {
     display: block;
     max-height: 200px;
   }
-    
-
   h1 {
     font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: rgb(128, 19, 201);
   }
-
   h2 {
-        font-size: 2.5em;
-        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 2.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
   }
-
   h3 {
     font-size: 2.0em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: black;
   }
-
- /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-  /* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  margin-bottom:20px;
-}
-
-.y{
-  color: rgb(128, 19, 201); 
-}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    margin-bottom:20px;
+  }
+  .y{
+    color: rgb(128, 19, 201); 
+  }
 </style>
 <html lang='en'>
     <meta charset="utf-8">
@@ -94,12 +69,42 @@
         <footer>
         <div>
             <ul class="mainmenu">
-                <a href="/" style="color:black">>Home</a>
-                <a href="/item2">Research </a>
-                <a href="/item3">C.V.</a>
-                <a href="/item4">About</a>
+                <a href="/" style="color:rgb(128, 19, 201)">Home</a>
+                <a href="/item2" style="color:rgb(128, 19, 201)">Research </a>
+                <a href="/item3" style="color:rgb(128, 19, 201)">C.V.</a>
+                <a href="/item4" style="color:rgb(128, 19, 201)">About</a>
             </ul>
         </div>
         <footer>
+        <div>
+            <h2 style="text-align:center"><span class='y'>I</span>nstitutional</h2>
+            <div class="column">
+                <footer>
+                <p>INAF-Osservatorio Astronomico di Padova</p>
+                <p>Vicolo dell'osservatorio 5, I-3522 Padova, Italy</p>
+                <p>Email: nicola.giacobbo@oapd.inaf.it</p>
+                <footer>
+            </div>
+            <div class="column">
+                    <footer>
+                <p>Dipartimento di Fisica e Astronomia "G.Galilei"</p>
+                <p>Vicolo dell'osservatorio 53, I-3522 Padova, Italy</p>
+                <p>Email: nicola.giacobbo.1@phd.unipd.it</p>
+                <footer>
+            </div>
+        </div>
+        <div style='margin-top:50px'>
+            <h2 style="text-align:center"><span class='y'>P</span>ersonal</h2>
+            <div class="column">
+                <footer>
+                <p>Phone: (+39) 338-4868617</p>
+                <footer>
+            </div>
+            <div class="column">
+                <footer>
+                <p>Email: giacobbo.nicola@gmail.com</p>
+                <footer>
+            </div>
+        </div>
     </body>
 </html>
