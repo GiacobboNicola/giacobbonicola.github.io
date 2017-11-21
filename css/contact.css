@@ -1,5 +1,5 @@
 /* reset our lists to remove bullet points and padding */
-  .mainmenu, .submenu {
+  .mainmenu {
     list-style: none;
     padding:0;
     overflow: hidden;
@@ -16,6 +16,9 @@
     text-align: center;
     color: rgb(128, 19, 201);
   }*/
+  .mainmenu {
+    text-align: center;
+  }
   
   .mainmenu a {
     padding: 15px;
