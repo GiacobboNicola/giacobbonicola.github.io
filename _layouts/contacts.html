@@ -1,4 +1,80 @@
 <!DOCTYPE html>
+<style>
+.mainmenu {
+    list-style: none;
+    padding:0;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  /* make ALL links (main and submenu) have padding and background color */
+  /*.mainmenu {
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    padding: 0;
+    font-size:24px;
+    text-align: center;
+    color: rgb(128, 19, 201);
+  }*/
+  .mainmenu {
+    font-size:24px;
+    text-align: center;
+    color: yellow;
+    background-color: white;
+  }
+  
+  .mainmenu a {
+    padding: 15px;
+  }
+
+  /* add hover behaviour */
+  .mainmenu a:hover {
+      background-color: rgb(128, 19, 201);
+      color: white;
+  }
+  
+  .mainmenu li:hover {
+    display: block;
+    max-height: 200px;
+  }
+    
+
+  h1 {
+    font-size: 3.5em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: rgb(128, 19, 201);
+  }
+
+  h2 {
+        font-size: 2.5em;
+        font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  }
+
+  h3 {
+    font-size: 2.0em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: black;
+  }
+
+ /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  /* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom:20px;
+}
+
+.y{
+  color: rgb(128, 19, 201); 
+}
+</style>
 <html lang='en'>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +86,6 @@
         <title>{{ title }}</title>
         <!-- link to main stylesheet -->
         <link rel="stylesheet" type="text/css" href="/css/main.css">
-        <link rel="stylesheet" type="text/css" href="/css/contact.css">
     </head>
 	<body>
         <div class="container"><!-- /.container -->				
