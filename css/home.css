@@ -23,7 +23,7 @@
 
   /* add hover behaviour */
   .mainmenu a:hover {
-      background-color: rgba(129, 204, 9, 0.671);
+      background-color: rgba(129, 204, 9, 0.589);
       color: white;
   }
   
@@ -65,7 +65,7 @@
   h1 {
     font-size: 3.5em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: rgba(129, 204, 9, 0.671);
+    color: rgba(129, 204, 9, 0.589);
 }
 
 h2 {
@@ -74,10 +74,10 @@ h2 {
 }
   a {
     text-decoration: none;
-    color: rgba(129, 204, 9, 0.671);
+    color: rgba(129, 204, 9, 0.589);
    }
    .g{  
-    color: rgba(129, 204, 9, 0.671);
+    color: rgba(129, 204, 9, 0.589);
   }
   
 
