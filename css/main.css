@@ -62,3 +62,20 @@ footer a {
     text-decoration: none;
     font-size: 1.0em;
 }
+/* all colours*/
+.r{  
+    color:rgb(224, 25, 14);
+}
+.g{  
+    color: rgb(101, 153, 17);
+}
+.b{
+    color: rgb(36, 141, 217);
+}
+.y{
+    color: rgb(128, 19, 201); 
+}
+.o{
+    color: rgb(234, 157, 25); 
+}
+    
