@@ -51,8 +51,8 @@ body {
 
 p {
     font-size: 1.2em;
-    line-height: 1.2em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    line-height: 1.5em;
+    font-family: 'Arial', 'Sans-Serif';
     color: rgba(128, 128, 128, 0.87);
 }
 footer {
