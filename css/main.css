@@ -50,9 +50,9 @@ body {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.5em;
-    font-family: 'Arial', 'Sans-Serif';
+    font-family: 'Verdana', 'Sans-Serif';
     color: rgba(128, 128, 128, 0.87);
 }
 footer {
