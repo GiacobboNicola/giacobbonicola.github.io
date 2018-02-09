@@ -65,6 +65,16 @@ body {
     display: block;
 }
 
+li {
+    float: center;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+
 /*.dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }*/
