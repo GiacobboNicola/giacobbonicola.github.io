@@ -30,15 +30,14 @@
       color: white;
   }
 
-  
   /* when hovering over a .mainmenu item,
-    display the submenu inside it.
-    we're changing the submenu's max-height from 0 to 200px;
-  
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px; */
+
   .mainmenu li:hover .submenu {
     display: block;
-    max-height: 200px;
-  }  */
+    max-height: 0px;
+  } 
    
   /*
     we now overwrite the background-color for .submenu links only.
@@ -66,7 +65,7 @@
   }
 
   .submenu li {
-    display: inline;
+    display: inline-block;
   }
 
   .hidden{
@@ -75,7 +74,7 @@
     display: none;
   }
   .hidden li{
-    display: block;
+    display: inline-block;
     margin: 0;
     padding: 0;
   }
