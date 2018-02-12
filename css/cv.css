@@ -30,7 +30,6 @@
       color: white;
   }
 
-  /*  end dropdown menu */
   
   /* when hovering over a .mainmenu item,
     display the submenu inside it.
@@ -68,6 +67,20 @@
 
   .submenu li {
     display: inline;
+  }
+
+  .hidden{
+    margin: 0;
+    padding: 0;
+    display: none;
+  }
+  .hidden li{
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .hidden, .hidden:hover{
+    display: block;
   }
 
   h1 {
