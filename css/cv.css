@@ -1,68 +1,46 @@
 /* reset our lists to remove bullet points and padding */
-  .mainmenu, .submenu {
-    list-style: none;
-    padding:0;
-    overflow: hidden;
-    margin: 0;
-  }
-  
-  /* make ALL links (main and submenu) have padding and background color */
-  .mainmenu {
-    display: block;
-    background-color:white;
-    text-decoration: none;
-    padding: 0;
-    font-size:24px;
-    text-align: center;
-    color:black;
-  }
-  .mainmenu li {
-    display: inline;
-  }
-  
-  .mainmenu a {
-    padding: 15px;
-  }
-
-  /* add hover behaviour */
-  .mainmenu a:hover {
-      background-color: rgb(36, 141, 217);
-      color: white;
-  }
-
-  /* when hovering over a .mainmenu item,
-  display the submenu inside it.
-  we're changing the submenu's max-height from 0 to 200px; */
-
-  .mainmenu li:hover .submenu {
-    display: inline-block;
-    max-height: 0px;
-  } 
-   
-  /*
-    we now overwrite the background-color for .submenu links only.
-    CSS reads down the page, so code at the bottom will overwrite the code at the top.
-  */
-  
-  .submenu a {
-    background-color:white;
-    color:darkgrey;
-  }
-  
-  /* hover behaviour for links inside .submenu */
-  .submenu a:hover {
-    background-color:rgb(106, 170, 217);
+#menudiv {
+  text-align:center;
+}
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu {
+  display: block;
+  background-color:white;
+  text-decoration: none;
+  padding: 10px;
+  font-size:24px;
+  text-align: center;
+  color:black;
+}  
+lu.mainmenu {
+  display:inline-block;
+  list-style-type:none;
+}
+li.menuitem {
+  position:relative;
+  display:inline-block;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+a.menuitem {
+  padding: 0px;
+}
+/* add hover behaviour */
+.menuitem a:hover {
+    background-color: rgb(36, 141, 217);
     color: white;
-  }
-    
-  /* this is the initial state of all submenus.
-    we set it to max-height: 0, and hide the overflowed content.
-  */
-  .submenu {
-    overflow: hidden;
-    max-height: 0;
-    -webkit-transition: all 0.5s ease-out;
-  }
+}
+ul.submenu {
+  display:none;
+  position:absolute;
+  list-style-type:none;
+}
+/* when hovering over a .menuitem, display the submenu inside it. */
+.menuitem:hover > ul.submenu {
+  display: block;
+} 
+
+/* GENERAL */
 
   h1 {
     font-size: 3.5em;
