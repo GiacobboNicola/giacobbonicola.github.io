@@ -16,6 +16,9 @@
     text-align: center;
     color:black;
   }
+  .mainmenu li {
+    display: inline;
+  }
   
   .mainmenu a {
     padding: 15px;
