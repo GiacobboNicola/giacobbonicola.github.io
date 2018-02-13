@@ -36,7 +36,7 @@ ul.submenu {
   position:absolute;
   background-color: white;
   color: black;
-  list-style-type: square;
+  list-style-type: none;
 }
 .subitem a {
     font-size: 20px;
