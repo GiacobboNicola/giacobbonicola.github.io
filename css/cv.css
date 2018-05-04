@@ -1,9 +1,14 @@
 /* reset our lists to remove bullet points and padding */
-#menudiv {
-  text-align:center;
+.mainmenu, .submenu {
+  list-style: none;
+  padding:0;
+  overflow: hidden;
+  margin: 0;
 }
+
 /* make ALL links (main and submenu) have padding and background color */
 .mainmenu {
+  display: block;
   background-color:white;
   text-decoration: none;
   padding: 0px;
@@ -11,33 +16,29 @@
   text-align: center;
   color:black;
 }  
-lu.mainmenu {
-  display:inline-block;
-  list-style-type:none;
-}
-li.menuitem {
-  position:relative;
-  display:inline-block;
-  padding: 0px 15px;
-  margin: 0px 0px;
-}
-a.menuitem {
-  padding: 15px;
 
+.mainmenu a {
+  padding: 15px;
 }
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: rgb(101, 153, 17);
+    color: white;
+}
+
 /* add hover behaviour */
 .menuitem a:hover {
     background-color: rgb(36, 141, 217);
     padding: 0px 0px;
     color: white;
 }
-ul.submenu {
-  display:none;
-  position:absolute;
-  background-color: white;
-  color: black;
-  list-style-type: none;
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
 }
+
 .subitem a {
     font-size: 20px;
     background-color: white;
@@ -48,10 +49,7 @@ ul.submenu {
     color: rgb(36, 141, 217);
 }
 
-/* when hovering over a .menuitem, display the submenu inside it. */
-.menuitem:hover > ul.submenu {
-  display: block;
-} 
+
 /* GENERAL */
 
   h1 {
